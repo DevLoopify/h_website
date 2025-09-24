@@ -5,12 +5,12 @@ import Link from "next/link";
 
 export default function Home() {
   const links = [
-    { href: "/innenarchitektur", src: "/innenarchitektur_thumbnail.jpg", label: "Innenarchitektur" },
-    { href: "/alte-bauten", src: "/alte_bauten_thumbnail.jpg", label: "Alte Bauten" },
-    { href: "/natuerlich-bauen", src: "/natuerlich_bauen_thumbnail.jpg", label: "Natürlich Bauen" },
-    { href: "/flexess", src: "/flexess_thumbnail.jpg", label: "Flexess" },
-    { href: "/lebendige-architektur", src: "/lebendige_architektur_thumbnail.jpg", label: "Lebendige Architektur" },
-     { href: "/design", src: "/design_thumbnail.png", label: "Design" },
+    { href: "/innenarchitektur", src: "h_website/innenarchitektur_thumbnail.jpg", label: "Innenarchitektur" },
+    { href: "/alte-bauten", src: "h_website/alte_bauten_thumbnail.jpg", label: "Alte Bauten" },
+    { href: "/natuerlich-bauen", src: "h_website/natuerlich_bauen_thumbnail.jpg", label: "Natürlich Bauen" },
+    { href: "/flexess", src: "h_website/flexess_thumbnail.jpg", label: "Flexess" },
+    { href: "/lebendige-architektur", src: "h_website/lebendige_architektur_thumbnail.jpg", label: "Lebendige Architektur" },
+     { href: "/design", src: "h_website/design_thumbnail.png", label: "Design" },
   ];
 
   return (

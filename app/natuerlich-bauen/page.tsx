@@ -17,7 +17,7 @@ const Natuerlich_bauen = () => {
 
       <div className="flex flex-col gap-6 mt-8 w-full max-w-4xl">
         <Image
-          src="/natuerlich_bauen/1.jpg"
+          src="/h_website/natuerlich_bauen/1.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -25,7 +25,7 @@ const Natuerlich_bauen = () => {
         />
         <p>Sichtmauerwerk mit Traßkalkfugen</p>
         <Image
-          src="/natuerlich_bauen/2.jpg"
+          src="/h_website/natuerlich_bauen/2.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -33,7 +33,7 @@ const Natuerlich_bauen = () => {
         />
         <p className='text-gray-500'>Bett aus Kirschbaum mit Zierzinken</p>
         <Image
-          src="/natuerlich_bauen/3.jpg"
+          src="/h_website/natuerlich_bauen/3.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -41,7 +41,7 @@ const Natuerlich_bauen = () => {
         />
         <p className='text-gray-500'>Strohballensauna mit Lehmputz aus dem Garten</p>
         <Image
-          src="/natuerlich_bauen/4.jpg"
+          src="/h_website/natuerlich_bauen/4.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -50,7 +50,7 @@ const Natuerlich_bauen = () => {
         <p className='text-gray-500'>ein altes Astloch bleibt in der Fensterbank</p>
 
         <Image
-          src="/natuerlich_bauen/5.jpg"
+          src="/h_website/natuerlich_bauen/5.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}

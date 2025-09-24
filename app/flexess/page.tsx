@@ -18,14 +18,14 @@ const Flexess = () => {
 
       <div className="flex flex-col gap-6 mt-8 w-full max-w-4xl">
         <Image
-          src="/flexess/1.jpg"
+          src="h_website/flexess/1.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
           className="object-cover w-full h-auto"
         />
         <Image
-          src="/flexess/2.jpg"
+          src="h_website/flexess/2.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}

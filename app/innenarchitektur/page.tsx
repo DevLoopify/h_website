@@ -19,7 +19,7 @@ const Innenarchitektur = () => {
       {/* 4. Bilder mit Abstand */}
       <div className="flex flex-col gap-6 mt-8 w-full max-w-4xl">
         <Image
-          src="/innenarchitektur/1.jpg"
+          src="/h_website/innenarchitektur/1.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -27,7 +27,7 @@ const Innenarchitektur = () => {
         />
         <p className='text-gray-500'>Loftküche in ehemaliger Schlosserei</p>
         <Image
-          src="/innenarchitektur/2.jpg"
+          src="/h_website/innenarchitektur/2.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -35,7 +35,7 @@ const Innenarchitektur = () => {
         />
         <p className='text-gray-500'>Popart Architektur mit natürlichem Lehmputz</p>
         <Image
-          src="/innenarchitektur/3.jpeg"
+          src="/h_website/innenarchitektur/3.jpeg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -43,7 +43,7 @@ const Innenarchitektur = () => {
         />
         <p className='text-gray-500'>Empfang im Baustoffhandel</p>
         <Image
-          src="/innenarchitektur/4.jpg"
+          src="/h_website/innenarchitektur/4.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -51,7 +51,7 @@ const Innenarchitektur = () => {
         />
         <p className='text-gray-500'>Showroom für Fensterbau</p>
         <Image
-          src="/innenarchitektur/5.jpg"
+          src="/h_website/innenarchitektur/5.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}

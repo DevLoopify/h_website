@@ -17,7 +17,7 @@ const Alte_bauten = () => {
 
       <div className="flex flex-col gap-6 mt-8 w-full max-w-4xl">
         <Image
-          src="/alte_bauten/1.jpg"
+          src="/h_website/alte_bauten/1.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -25,7 +25,7 @@ const Alte_bauten = () => {
         />
         <p className='text-gray-500'>Carport im Stil von Manchester um 1900</p>
         <Image
-          src="/alte_bauten/2.jpg"
+          src="/h_website/alte_bauten/2.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -33,7 +33,7 @@ const Alte_bauten = () => {
         />
         <p className='text-gray-500'>alte Bausubstanz und moderne Elemente</p>
         <Image
-          src="/alte_bauten/3.jpg"
+          src="/h_website/alte_bauten/3.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}
@@ -41,7 +41,7 @@ const Alte_bauten = () => {
         />
         <p className='text-gray-500'>der Neidkopf beschützt das alte Haus</p>
         <Image
-          src="/alte_bauten/4.jpg"
+          src="/h_website/alte_bauten/4.jpg"
           alt="innenarchitektur"
           width={300}
           height={300}

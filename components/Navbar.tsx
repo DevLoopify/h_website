@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className=' flex items-center flex-col'>
         <Image
-        src="/logo.jpg"
+        src="/h_website/logo.jpg"
         alt="logo"
         width={315}
         height={315}
