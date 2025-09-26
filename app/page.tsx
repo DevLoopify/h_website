@@ -1,5 +1,4 @@
 'use client'
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,17 +9,17 @@ export default function Home() {
     { href: "/natuerlich-bauen", src: "/h_website/thumbnails/natuerlich_bauen_thumbnail.jpg", label: "Natürlich Bauen" },
     { href: "/flexess", src: "/h_website/thumbnails/flexess_thumbnail.jpg", label: "Flexess" },
     { href: "/lebendige-architektur", src: "/h_website/thumbnails/lebendige_architektur_thumbnail.jpg", label: "Lebendige Architektur" },
-     { href: "/design", src: "/h_website/thumbnails/design_thumbnail.png", label: "Design" },
+    { href: "/design", src: "/h_website/thumbnails/design_thumbnail.png", label: "Design" },
   ];
 
   return (
     <div>
-      <div className="bg-gray-700 grid grid-cols-3 grid-rows-2">
+      <div className="bg-gray-700 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0">
         {links.map((item) => (
           <Link
             key={item.href}
             href={item.href}
-            className="relative group  w-full h-full aspect-square block"
+            className="relative group w-full h-full aspect-square block"
           >
             <Image
               src={item.src}
@@ -38,15 +37,14 @@ export default function Home() {
         ))}
       </div>
       <div className="flex flex-row justify-center mt-12">
-      <button
-      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      className="flex items-center gap-2 text-gray-500 hover:text-gray-700 transition-colors">
-      <span>↑</span>
-      <span>Back to Top</span>
-      </button>
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="flex items-center gap-2 text-gray-500 hover:text-gray-700 transition-colors"
+        >
+          <span>↑</span>
+          <span>Back to Top</span>
+        </button>
       </div>
-      
-
     </div>
   );
 }

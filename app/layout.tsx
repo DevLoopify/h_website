@@ -26,15 +26,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen grid grid-cols-[1fr_2fr]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen 
+                   flex flex-col md:grid md:grid-cols-[1fr_2fr]`}
       >
         <div className="">
-          <Navbar/>
+          <Navbar />
         </div>
-        <div className="">
+        <div className="flex-1 md:flex-none">
           {children}
         </div>
-
       </body>
     </html>
   );
